@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offers>
+  <offer>
+    <id>1</id>
+    <title>SUV Summer Sale</title>
+    <description>Get 15% off all SUVs this month. Limited time offer on our entire SUV inventory including Toyota RAV4, Honda CR-V, and more!</description>
+    <discount>15%</discount>
+    <validUntil>2025-08-31</validUntil>
+    <category>SUV</category>
+  </offer>
+  <offer>
+    <id>2</id>
+    <title>First-Time Buyer Special</title>
+    <description>New to car buying? Enjoy $2,000 off your first purchase at CarBreezy. Our team will guide you through every step.</description>
+    <discount>$2,000</discount>
+    <validUntil>2025-12-31</validUntil>
+    <category>All</category>
+  </offer>
+  <offer>
+    <id>3</id>
+    <title>Luxury Sedan Event</title>
+    <description>Premium sedans at unbeatable prices. 10% off all BMW, Mercedes-Benz, and Audi sedans in stock.</description>
+    <discount>10%</discount>
+    <validUntil>2025-09-15</validUntil>
+    <category>Sedan</category>
+  </offer>
+  <offer>
+    <id>4</id>
+    <title>Trade-In Bonus</title>
+    <description>Trade in your old car and get an extra $1,500 towards your new purchase. Any make, any model accepted!</description>
+    <discount>$1,500</discount>
+    <validUntil>2025-10-31</validUntil>
+    <category>All</category>
+  </offer>
+  <offer>
+    <id>5</id>
+    <title>Convertible Season</title>
+    <description>Summer is here! Get 12% off all convertibles and feel the wind in your hair. Mustang, Camaro, and more!</description>
+    <discount>12%</discount>
+    <validUntil>2025-07-31</validUntil>
+    <category>Convertible</category>
+  </offer>
+  <offer>
+    <id>6</id>
+    <title>Pickup Truck Power Deal</title>
+    <description>Heavy savings on heavy-duty trucks. $3,000 off all pickup trucks including F-150, Silverado, and Titan.</description>
+    <discount>$3,000</discount>
+    <validUntil>2025-09-30</validUntil>
+    <category>Pickup Truck</category>
+  </offer>
+  <offer>
+    <id>7</id>
+    <title>Hatchback Hot Deal</title>
+    <description>Compact and efficient! Save 8% on all hatchbacks. Perfect for city driving and parking.</description>
+    <discount>8%</discount>
+    <validUntil>2025-08-15</validUntil>
+    <category>Hatchback</category>
+  </offer>
+  <offer>
+    <id>8</id>
+    <title>Zero Down Financing</title>
+    <description>Drive away today with $0 down payment. Available on all certified used cars with approved credit.</description>
+    <discount>$0 Down</discount>
+    <validUntil>2025-12-31</validUntil>
+    <category>Used</category>
+  </offer>
+</offers>

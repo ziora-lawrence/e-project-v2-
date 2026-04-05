@@ -1,0 +1,3352 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Toyota Camry",
+      "brand": "Toyota",
+      "type": "new",
+      "category": "Sedan",
+      "price": 28000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80",
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80",
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone climate control",
+          "soundSystem": "JBL 9-speaker"
+        },
+        "external": {
+          "color": "Pearl White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED adaptive",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder Hybrid",
+          "horsepower": "203 hp",
+          "torque": "163 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Hybrid",
+          "fuelEconomy": "52 mpg"
+        },
+        "dimensions": {
+          "length": "4885 mm",
+          "width": "1840 mm",
+          "height": "1455 mm",
+          "wheelbase": "2825 mm",
+          "cargoSpace": "428 L"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Toyota RAV4",
+      "brand": "Toyota",
+      "type": "new",
+      "category": "SUV",
+      "price": 32000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1633158829799-96bb13cab779?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1633158829799-96bb13cab779?w=800&q=80",
+        "https://images.unsplash.com/photo-1633158829799-96bb13cab779?w=800&q=80",
+        "https://images.unsplash.com/photo-1633158829799-96bb13cab779?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "12-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Dual-zone climate control",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Magnetic Gray",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder",
+          "horsepower": "203 hp",
+          "torque": "184 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "30 mpg"
+        },
+        "dimensions": {
+          "length": "4600 mm",
+          "width": "1855 mm",
+          "height": "1685 mm",
+          "wheelbase": "2690 mm",
+          "cargoSpace": "1062 L"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Toyota Corolla Hatchback",
+      "brand": "Toyota",
+      "type": "new",
+      "category": "Hatchback",
+      "price": 24000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80",
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80",
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Supersonic Red",
+          "wheelSize": "16-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder",
+          "horsepower": "169 hp",
+          "torque": "151 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "35 mpg"
+        },
+        "dimensions": {
+          "length": "4375 mm",
+          "width": "1790 mm",
+          "height": "1435 mm",
+          "wheelbase": "2640 mm",
+          "cargoSpace": "504 L"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Honda Accord",
+      "brand": "Honda",
+      "type": "new",
+      "category": "Sedan",
+      "price": 29000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "12-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone climate control",
+          "soundSystem": "Bose 10-speaker"
+        },
+        "external": {
+          "color": "Lunar Silver",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED adaptive",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "252 hp",
+          "torque": "273 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "32 mpg"
+        },
+        "dimensions": {
+          "length": "4905 mm",
+          "width": "1860 mm",
+          "height": "1450 mm",
+          "wheelbase": "2830 mm",
+          "cargoSpace": "473 L"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Honda CR-V",
+      "brand": "Honda",
+      "type": "new",
+      "category": "SUV",
+      "price": 33000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "9-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Tri-zone climate control",
+          "soundSystem": "8-speaker"
+        },
+        "external": {
+          "color": "Crystal Black",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder Turbo",
+          "horsepower": "190 hp",
+          "torque": "179 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4700 mm",
+          "width": "1865 mm",
+          "height": "1680 mm",
+          "wheelbase": "2700 mm",
+          "cargoSpace": "1113 L"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Honda Civic Type R",
+      "brand": "Honda",
+      "type": "new",
+      "category": "Hatchback",
+      "price": 45000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "9-inch touchscreen",
+          "upholstery": "Sport fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "12-speaker Bose"
+        },
+        "external": {
+          "color": "Championship White",
+          "wheelSize": "19-inch forged",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "315 hp",
+          "torque": "310 lb-ft",
+          "transmission": "6-speed manual",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "4590 mm",
+          "width": "1890 mm",
+          "height": "1405 mm",
+          "wheelbase": "2735 mm",
+          "cargoSpace": "419 L"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ford Mustang GT",
+      "brand": "Ford",
+      "type": "new",
+      "category": "Convertible",
+      "price": 55000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "13-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "B&O 12-speaker"
+        },
+        "external": {
+          "color": "Race Red",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "5.0L V8",
+          "horsepower": "450 hp",
+          "torque": "410 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "18 mpg"
+        },
+        "dimensions": {
+          "length": "4810 mm",
+          "width": "1916 mm",
+          "height": "1395 mm",
+          "wheelbase": "2720 mm",
+          "cargoSpace": "324 L"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Ford F-150",
+      "brand": "Ford",
+      "type": "new",
+      "category": "Pickup Truck",
+      "price": 42000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 6,
+          "infotainment": "12-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "8-speaker"
+        },
+        "external": {
+          "color": "Agate Black",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Pickup Truck"
+        },
+        "engine": {
+          "type": "3.5L V6 EcoBoost",
+          "horsepower": "400 hp",
+          "torque": "500 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "20 mpg"
+        },
+        "dimensions": {
+          "length": "5890 mm",
+          "width": "2029 mm",
+          "height": "1960 mm",
+          "wheelbase": "3683 mm",
+          "cargoSpace": "Bed: 1680 L"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ford Explorer",
+      "brand": "Ford",
+      "type": "new",
+      "category": "SUV",
+      "price": 38000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 7,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "B&O 14-speaker"
+        },
+        "external": {
+          "color": "Star White",
+          "wheelSize": "20-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.3L 4-cylinder EcoBoost",
+          "horsepower": "300 hp",
+          "torque": "310 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "5050 mm",
+          "width": "2004 mm",
+          "height": "1778 mm",
+          "wheelbase": "3025 mm",
+          "cargoSpace": "1529 L"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "BMW 3 Series",
+      "brand": "BMW",
+      "type": "new",
+      "category": "Sedan",
+      "price": 48000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "14-inch touchscreen",
+          "upholstery": "Vernasca Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 16-speaker"
+        },
+        "external": {
+          "color": "Alpine White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED Laser",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "255 hp",
+          "torque": "295 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4708 mm",
+          "width": "1827 mm",
+          "height": "1440 mm",
+          "wheelbase": "2851 mm",
+          "cargoSpace": "480 L"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "BMW X5",
+      "brand": "BMW",
+      "type": "new",
+      "category": "SUV",
+      "price": 65000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80",
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80",
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "14-inch curved display",
+          "upholstery": "Merino Leather",
+          "airConditioning": "4-zone",
+          "soundSystem": "Bowers & Wilkins 20-speaker"
+        },
+        "external": {
+          "color": "Carbon Black",
+          "wheelSize": "21-inch alloy",
+          "headlights": "LED Laser",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "3.0L 6-cylinder Turbo",
+          "horsepower": "375 hp",
+          "torque": "398 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Mild Hybrid",
+          "fuelEconomy": "25 mpg"
+        },
+        "dimensions": {
+          "length": "4935 mm",
+          "width": "2004 mm",
+          "height": "1765 mm",
+          "wheelbase": "2975 mm",
+          "cargoSpace": "650 L"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "BMW Z4",
+      "brand": "BMW",
+      "type": "new",
+      "category": "Convertible",
+      "price": 58000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 2,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 12-speaker"
+        },
+        "external": {
+          "color": "San Francisco Red",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "255 hp",
+          "torque": "295 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "26 mpg"
+        },
+        "dimensions": {
+          "length": "4324 mm",
+          "width": "1864 mm",
+          "height": "1304 mm",
+          "wheelbase": "2470 mm",
+          "cargoSpace": "281 L"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Mercedes-Benz C-Class",
+      "brand": "Mercedes-Benz",
+      "type": "new",
+      "category": "Sedan",
+      "price": 52000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "11-inch touchscreen",
+          "upholstery": "Artico Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Burmester 13-speaker"
+        },
+        "external": {
+          "color": "Polar White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED High Performance",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "255 hp",
+          "torque": "295 lb-ft",
+          "transmission": "9-speed automatic",
+          "fuelType": "Mild Hybrid",
+          "fuelEconomy": "30 mpg"
+        },
+        "dimensions": {
+          "length": "4751 mm",
+          "width": "1820 mm",
+          "height": "1437 mm",
+          "wheelbase": "2865 mm",
+          "cargoSpace": "455 L"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Mercedes-Benz GLE",
+      "brand": "Mercedes-Benz",
+      "type": "new",
+      "category": "SUV",
+      "price": 72000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "12-inch dual display",
+          "upholstery": "Nappa Leather",
+          "airConditioning": "4-zone",
+          "soundSystem": "Burmester 25-speaker"
+        },
+        "external": {
+          "color": "Obsidian Black",
+          "wheelSize": "20-inch alloy",
+          "headlights": "MULTIBEAM LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "3.0L 6-cylinder Turbo",
+          "horsepower": "362 hp",
+          "torque": "369 lb-ft",
+          "transmission": "9-speed automatic",
+          "fuelType": "Mild Hybrid",
+          "fuelEconomy": "23 mpg"
+        },
+        "dimensions": {
+          "length": "4925 mm",
+          "width": "1947 mm",
+          "height": "1772 mm",
+          "wheelbase": "2995 mm",
+          "cargoSpace": "825 L"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "Mercedes-Benz A-Class",
+      "brand": "Mercedes-Benz",
+      "type": "new",
+      "category": "Hatchback",
+      "price": 38000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80",
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80",
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "7-speaker"
+        },
+        "external": {
+          "color": "Mountain Grey",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "188 hp",
+          "torque": "221 lb-ft",
+          "transmission": "7-speed dual-clutch",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "33 mpg"
+        },
+        "dimensions": {
+          "length": "4419 mm",
+          "width": "1796 mm",
+          "height": "1440 mm",
+          "wheelbase": "2729 mm",
+          "cargoSpace": "370 L"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Volkswagen Golf GTI",
+      "brand": "Volkswagen",
+      "type": "new",
+      "category": "Hatchback",
+      "price": 35000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Clark Plaid fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 8-speaker"
+        },
+        "external": {
+          "color": "Kings Red",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED Matrix",
+          "sunroof": true,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "241 hp",
+          "torque": "273 lb-ft",
+          "transmission": "7-speed DSG",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4287 mm",
+          "width": "1789 mm",
+          "height": "1456 mm",
+          "wheelbase": "2626 mm",
+          "cargoSpace": "374 L"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Volkswagen Tiguan",
+      "brand": "Volkswagen",
+      "type": "new",
+      "category": "SUV",
+      "price": 32000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1494905998402-395d579af36f?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1494905998402-395d579af36f?w=800&q=80",
+        "https://images.unsplash.com/photo-1494905998402-395d579af36f?w=800&q=80",
+        "https://images.unsplash.com/photo-1494905998402-395d579af36f?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 7,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "V-Tex leatherette",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "8-speaker"
+        },
+        "external": {
+          "color": "Platinum Grey",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "184 hp",
+          "torque": "221 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "26 mpg"
+        },
+        "dimensions": {
+          "length": "4509 mm",
+          "width": "1839 mm",
+          "height": "1675 mm",
+          "wheelbase": "2681 mm",
+          "cargoSpace": "1065 L"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "Volkswagen Jetta",
+      "brand": "Volkswagen",
+      "type": "new",
+      "category": "Sedan",
+      "price": 26000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800&q=80",
+        "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800&q=80",
+        "https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Pure White",
+          "wheelSize": "16-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder Turbo",
+          "horsepower": "158 hp",
+          "torque": "184 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "35 mpg"
+        },
+        "dimensions": {
+          "length": "4740 mm",
+          "width": "1800 mm",
+          "height": "1472 mm",
+          "wheelbase": "2686 mm",
+          "cargoSpace": "510 L"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "Audi A4",
+      "brand": "Audi",
+      "type": "new",
+      "category": "Sedan",
+      "price": 50000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80",
+        "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80",
+        "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch MMI",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bang & Olufsen 19-speaker"
+        },
+        "external": {
+          "color": "Ibis White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "Matrix LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "261 hp",
+          "torque": "273 lb-ft",
+          "transmission": "7-speed S tronic",
+          "fuelType": "Mild Hybrid",
+          "fuelEconomy": "30 mpg"
+        },
+        "dimensions": {
+          "length": "4762 mm",
+          "width": "1847 mm",
+          "height": "1431 mm",
+          "wheelbase": "2818 mm",
+          "cargoSpace": "460 L"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "Audi Q5",
+      "brand": "Audi",
+      "type": "new",
+      "category": "SUV",
+      "price": 58000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80",
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80",
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch MMI",
+          "upholstery": "Valcona Leather",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "Bang & Olufsen 755W"
+        },
+        "external": {
+          "color": "Navarra Blue",
+          "wheelSize": "20-inch alloy",
+          "headlights": "Matrix LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "261 hp",
+          "torque": "273 lb-ft",
+          "transmission": "7-speed S tronic",
+          "fuelType": "Mild Hybrid",
+          "fuelEconomy": "26 mpg"
+        },
+        "dimensions": {
+          "length": "4682 mm",
+          "width": "1893 mm",
+          "height": "1662 mm",
+          "wheelbase": "2825 mm",
+          "cargoSpace": "550 L"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "Audi TT Roadster",
+      "brand": "Audi",
+      "type": "new",
+      "category": "Convertible",
+      "price": 62000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80",
+        "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80",
+        "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 2,
+          "infotainment": "12-inch Virtual Cockpit",
+          "upholstery": "Fine Nappa Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bang & Olufsen 12-speaker"
+        },
+        "external": {
+          "color": "Tango Red",
+          "wheelSize": "19-inch alloy",
+          "headlights": "Matrix LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "228 hp",
+          "torque": "258 lb-ft",
+          "transmission": "7-speed S tronic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "27 mpg"
+        },
+        "dimensions": {
+          "length": "4201 mm",
+          "width": "1832 mm",
+          "height": "1345 mm",
+          "wheelbase": "2502 mm",
+          "cargoSpace": "280 L"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "Hyundai Tucson",
+      "brand": "Hyundai",
+      "type": "new",
+      "category": "SUV",
+      "price": 29000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80",
+        "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80",
+        "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 8-speaker"
+        },
+        "external": {
+          "color": "Amazon Grey",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder",
+          "horsepower": "187 hp",
+          "torque": "178 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4630 mm",
+          "width": "1865 mm",
+          "height": "1665 mm",
+          "wheelbase": "2755 mm",
+          "cargoSpace": "880 L"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "Hyundai Sonata",
+      "brand": "Hyundai",
+      "type": "new",
+      "category": "Sedan",
+      "price": 27000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "12-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 12-speaker"
+        },
+        "external": {
+          "color": "Serenity White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder Turbo",
+          "horsepower": "290 hp",
+          "torque": "311 lb-ft",
+          "transmission": "8-speed DCT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "31 mpg"
+        },
+        "dimensions": {
+          "length": "4900 mm",
+          "width": "1860 mm",
+          "height": "1445 mm",
+          "wheelbase": "2840 mm",
+          "cargoSpace": "453 L"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "Hyundai Kona",
+      "brand": "Hyundai",
+      "type": "new",
+      "category": "SUV",
+      "price": 25000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Mirage Green",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder",
+          "horsepower": "147 hp",
+          "torque": "132 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "32 mpg"
+        },
+        "dimensions": {
+          "length": "4205 mm",
+          "width": "1800 mm",
+          "height": "1560 mm",
+          "wheelbase": "2600 mm",
+          "cargoSpace": "544 L"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "Kia Telluride",
+      "brand": "Kia",
+      "type": "new",
+      "category": "SUV",
+      "price": 38000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&q=80",
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&q=80",
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 8,
+          "infotainment": "12-inch touchscreen",
+          "upholstery": "Nappa Leather",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "Harman Kardon 10-speaker"
+        },
+        "external": {
+          "color": "Gravity Grey",
+          "wheelSize": "20-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "3.8L V6",
+          "horsepower": "291 hp",
+          "torque": "262 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "23 mpg"
+        },
+        "dimensions": {
+          "length": "5000 mm",
+          "width": "1990 mm",
+          "height": "1750 mm",
+          "wheelbase": "2900 mm",
+          "cargoSpace": "601 L"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "Kia Stinger",
+      "brand": "Kia",
+      "type": "new",
+      "category": "Sedan",
+      "price": 42000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80",
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80",
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 15-speaker"
+        },
+        "external": {
+          "color": "Ascot Green",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "3.3L V6 Twin-Turbo",
+          "horsepower": "368 hp",
+          "torque": "376 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "4830 mm",
+          "width": "1870 mm",
+          "height": "1400 mm",
+          "wheelbase": "2905 mm",
+          "cargoSpace": "406 L"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "Kia Seltos",
+      "brand": "Kia",
+      "type": "new",
+      "category": "SUV",
+      "price": 24000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Starbright Yellow",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder",
+          "horsepower": "146 hp",
+          "torque": "132 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "31 mpg"
+        },
+        "dimensions": {
+          "length": "4370 mm",
+          "width": "1800 mm",
+          "height": "1615 mm",
+          "wheelbase": "2630 mm",
+          "cargoSpace": "752 L"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Chevrolet Silverado",
+      "brand": "Chevrolet",
+      "type": "new",
+      "category": "Pickup Truck",
+      "price": 45000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 6,
+          "infotainment": "13-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Summit White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Pickup Truck"
+        },
+        "engine": {
+          "type": "5.3L V8",
+          "horsepower": "355 hp",
+          "torque": "383 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "19 mpg"
+        },
+        "dimensions": {
+          "length": "5885 mm",
+          "width": "2060 mm",
+          "height": "1910 mm",
+          "wheelbase": "3749 mm",
+          "cargoSpace": "Bed: 1890 L"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "Chevrolet Camaro",
+      "brand": "Chevrolet",
+      "type": "new",
+      "category": "Convertible",
+      "price": 48000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 9-speaker"
+        },
+        "external": {
+          "color": "Riverside Blue",
+          "wheelSize": "20-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "6.2L V8",
+          "horsepower": "455 hp",
+          "torque": "455 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "17 mpg"
+        },
+        "dimensions": {
+          "length": "4780 mm",
+          "width": "1895 mm",
+          "height": "1340 mm",
+          "wheelbase": "2811 mm",
+          "cargoSpace": "258 L"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "Chevrolet Equinox",
+      "brand": "Chevrolet",
+      "type": "new",
+      "category": "SUV",
+      "price": 30000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "11-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Mosaic Black",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder Turbo",
+          "horsepower": "175 hp",
+          "torque": "203 lb-ft",
+          "transmission": "6-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4650 mm",
+          "width": "1900 mm",
+          "height": "1670 mm",
+          "wheelbase": "2725 mm",
+          "cargoSpace": "847 L"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "Nissan Altima",
+      "brand": "Nissan",
+      "type": "new",
+      "category": "Sedan",
+      "price": 27000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "12-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 9-speaker"
+        },
+        "external": {
+          "color": "Scarlet Ember",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "248 hp",
+          "torque": "273 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4900 mm",
+          "width": "1850 mm",
+          "height": "1450 mm",
+          "wheelbase": "2825 mm",
+          "cargoSpace": "436 L"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "Nissan Rogue",
+      "brand": "Nissan",
+      "type": "new",
+      "category": "SUV",
+      "price": 31000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80",
+        "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80",
+        "https://images.unsplash.com/photo-1563720223523-4a56e4d5b2e6?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "9-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 10-speaker"
+        },
+        "external": {
+          "color": "Monarch Orange",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "1.5L 3-cylinder Turbo",
+          "horsepower": "201 hp",
+          "torque": "225 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "33 mpg"
+        },
+        "dimensions": {
+          "length": "4648 mm",
+          "width": "1839 mm",
+          "height": "1689 mm",
+          "wheelbase": "2705 mm",
+          "cargoSpace": "1036 L"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "Nissan Frontier",
+      "brand": "Nissan",
+      "type": "new",
+      "category": "Pickup Truck",
+      "price": 35000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80",
+        "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80",
+        "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "9-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Tactical Green",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Pickup Truck"
+        },
+        "engine": {
+          "type": "3.8L V6",
+          "horsepower": "310 hp",
+          "torque": "281 lb-ft",
+          "transmission": "9-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "20 mpg"
+        },
+        "dimensions": {
+          "length": "5339 mm",
+          "width": "1850 mm",
+          "height": "1835 mm",
+          "wheelbase": "3200 mm",
+          "cargoSpace": "Bed: 1580 L"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "Subaru Outback",
+      "brand": "Subaru",
+      "type": "new",
+      "category": "SUV",
+      "price": 33000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "11-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 12-speaker"
+        },
+        "external": {
+          "color": "Abyss Blue",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder Boxer",
+          "horsepower": "182 hp",
+          "torque": "176 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4870 mm",
+          "width": "1875 mm",
+          "height": "1675 mm",
+          "wheelbase": "2745 mm",
+          "cargoSpace": "920 L"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "Subaru WRX",
+      "brand": "Subaru",
+      "type": "new",
+      "category": "Sedan",
+      "price": 34000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "11-inch touchscreen",
+          "upholstery": "Sport fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 11-speaker"
+        },
+        "external": {
+          "color": "Ignition Red",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.4L 4-cylinder Turbo Boxer",
+          "horsepower": "271 hp",
+          "torque": "258 lb-ft",
+          "transmission": "6-speed manual",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "22 mpg"
+        },
+        "dimensions": {
+          "length": "4670 mm",
+          "width": "1825 mm",
+          "height": "1465 mm",
+          "wheelbase": "2675 mm",
+          "cargoSpace": "414 L"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "Subaru Crosstrek",
+      "brand": "Subaru",
+      "type": "new",
+      "category": "SUV",
+      "price": 26000,
+      "year": 2024,
+      "image": "https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=800&q=80",
+        "https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=800&q=80",
+        "https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Plasma Yellow",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Boxer",
+          "horsepower": "152 hp",
+          "torque": "145 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "34 mpg"
+        },
+        "dimensions": {
+          "length": "4485 mm",
+          "width": "1800 mm",
+          "height": "1580 mm",
+          "wheelbase": "2670 mm",
+          "cargoSpace": "552 L"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "Toyota Camry",
+      "brand": "Toyota",
+      "type": "used",
+      "category": "Sedan",
+      "price": 18500,
+      "year": 2020,
+      "mileage": "45,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Super White",
+          "wheelSize": "17-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder",
+          "horsepower": "203 hp",
+          "torque": "184 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4885 mm",
+          "width": "1839 mm",
+          "height": "1445 mm",
+          "wheelbase": "2825 mm",
+          "cargoSpace": "428 L"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "Toyota RAV4",
+      "brand": "Toyota",
+      "type": "used",
+      "category": "SUV",
+      "price": 22000,
+      "year": 2019,
+      "mileage": "52,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Magnetic Gray",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder",
+          "horsepower": "203 hp",
+          "torque": "184 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4590 mm",
+          "width": "1855 mm",
+          "height": "1685 mm",
+          "wheelbase": "2690 mm",
+          "cargoSpace": "1062 L"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "Toyota Corolla",
+      "brand": "Toyota",
+      "type": "used",
+      "category": "Sedan",
+      "price": 15500,
+      "year": 2018,
+      "mileage": "62,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Barcelona Red",
+          "wheelSize": "16-inch steel",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "1.8L 4-cylinder",
+          "horsepower": "132 hp",
+          "torque": "128 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "32 mpg"
+        },
+        "dimensions": {
+          "length": "4630 mm",
+          "width": "1780 mm",
+          "height": "1435 mm",
+          "wheelbase": "2700 mm",
+          "cargoSpace": "371 L"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "Honda Accord",
+      "brand": "Honda",
+      "type": "used",
+      "category": "Sedan",
+      "price": 19500,
+      "year": 2020,
+      "mileage": "48,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "8-speaker"
+        },
+        "external": {
+          "color": "Modern Steel",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder Turbo",
+          "horsepower": "192 hp",
+          "torque": "192 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "33 mpg"
+        },
+        "dimensions": {
+          "length": "4880 mm",
+          "width": "1860 mm",
+          "height": "1450 mm",
+          "wheelbase": "2830 mm",
+          "cargoSpace": "473 L"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "Honda CR-V",
+      "brand": "Honda",
+      "type": "used",
+      "category": "SUV",
+      "price": 21000,
+      "year": 2019,
+      "mileage": "55,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Lunar Silver",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder Turbo",
+          "horsepower": "190 hp",
+          "torque": "179 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "30 mpg"
+        },
+        "dimensions": {
+          "length": "4580 mm",
+          "width": "1855 mm",
+          "height": "1675 mm",
+          "wheelbase": "2660 mm",
+          "cargoSpace": "1113 L"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "Honda Civic",
+      "brand": "Honda",
+      "type": "used",
+      "category": "Sedan",
+      "price": 16500,
+      "year": 2019,
+      "mileage": "58,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Single-zone",
+          "soundSystem": "4-speaker"
+        },
+        "external": {
+          "color": "Rallye Red",
+          "wheelSize": "16-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder",
+          "horsepower": "158 hp",
+          "torque": "138 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "34 mpg"
+        },
+        "dimensions": {
+          "length": "4650 mm",
+          "width": "1800 mm",
+          "height": "1415 mm",
+          "wheelbase": "2700 mm",
+          "cargoSpace": "428 L"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "Ford Mustang",
+      "brand": "Ford",
+      "type": "used",
+      "category": "Convertible",
+      "price": 32000,
+      "year": 2019,
+      "mileage": "35,000 miles",
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Shaker 9-speaker"
+        },
+        "external": {
+          "color": "Shadow Black",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "2.3L 4-cylinder EcoBoost",
+          "horsepower": "310 hp",
+          "torque": "350 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "4784 mm",
+          "width": "1916 mm",
+          "height": "1380 mm",
+          "wheelbase": "2720 mm",
+          "cargoSpace": "324 L"
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "Ford F-150",
+      "brand": "Ford",
+      "type": "used",
+      "category": "Pickup Truck",
+      "price": 32000,
+      "year": 2018,
+      "mileage": "68,000 miles",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 6,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Ingot Silver",
+          "wheelSize": "17-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "Pickup Truck"
+        },
+        "engine": {
+          "type": "3.5L V6 EcoBoost",
+          "horsepower": "375 hp",
+          "torque": "470 lb-ft",
+          "transmission": "10-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "20 mpg"
+        },
+        "dimensions": {
+          "length": "5885 mm",
+          "width": "2029 mm",
+          "height": "1960 mm",
+          "wheelbase": "3683 mm",
+          "cargoSpace": "Bed: 1680 L"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "Ford Escape",
+      "brand": "Ford",
+      "type": "used",
+      "category": "SUV",
+      "price": 18000,
+      "year": 2019,
+      "mileage": "60,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Blue Metallic",
+          "wheelSize": "17-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder EcoBoost",
+          "horsepower": "179 hp",
+          "torque": "177 lb-ft",
+          "transmission": "6-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "26 mpg"
+        },
+        "dimensions": {
+          "length": "4520 mm",
+          "width": "1835 mm",
+          "height": "1680 mm",
+          "wheelbase": "2690 mm",
+          "cargoSpace": "964 L"
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "BMW 3 Series",
+      "brand": "BMW",
+      "type": "used",
+      "category": "Sedan",
+      "price": 32000,
+      "year": 2020,
+      "mileage": "42,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 16-speaker"
+        },
+        "external": {
+          "color": "Mineral Grey",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "255 hp",
+          "torque": "295 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4708 mm",
+          "width": "1827 mm",
+          "height": "1440 mm",
+          "wheelbase": "2851 mm",
+          "cargoSpace": "480 L"
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "BMW X3",
+      "brand": "BMW",
+      "type": "used",
+      "category": "SUV",
+      "price": 38000,
+      "year": 2020,
+      "mileage": "38,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "Harman Kardon 16-speaker"
+        },
+        "external": {
+          "color": "Phytonic Blue",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "248 hp",
+          "torque": "258 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "26 mpg"
+        },
+        "dimensions": {
+          "length": "4708 mm",
+          "width": "1891 mm",
+          "height": "1676 mm",
+          "wheelbase": "2864 mm",
+          "cargoSpace": "550 L"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "BMW 2 Series",
+      "brand": "BMW",
+      "type": "used",
+      "category": "Convertible",
+      "price": 35000,
+      "year": 2019,
+      "mileage": "32,000 miles",
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 12-speaker"
+        },
+        "external": {
+          "color": "Melbourne Red",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "248 hp",
+          "torque": "258 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "27 mpg"
+        },
+        "dimensions": {
+          "length": "4430 mm",
+          "width": "1774 mm",
+          "height": "1410 mm",
+          "wheelbase": "2690 mm",
+          "cargoSpace": "280 L"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "Mercedes-Benz C-Class",
+      "brand": "Mercedes-Benz",
+      "type": "used",
+      "category": "Sedan",
+      "price": 35000,
+      "year": 2020,
+      "mileage": "40,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Burmester 13-speaker"
+        },
+        "external": {
+          "color": "Polar White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "255 hp",
+          "torque": "273 lb-ft",
+          "transmission": "9-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4751 mm",
+          "width": "1820 mm",
+          "height": "1437 mm",
+          "wheelbase": "2865 mm",
+          "cargoSpace": "455 L"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "Mercedes-Benz GLC",
+      "brand": "Mercedes-Benz",
+      "type": "used",
+      "category": "SUV",
+      "price": 42000,
+      "year": 2020,
+      "mileage": "36,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "Burmester 13-speaker"
+        },
+        "external": {
+          "color": "Obsidian Black",
+          "wheelSize": "19-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "255 hp",
+          "torque": "273 lb-ft",
+          "transmission": "9-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "4658 mm",
+          "width": "1890 mm",
+          "height": "1644 mm",
+          "wheelbase": "2873 mm",
+          "cargoSpace": "550 L"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "Mercedes-Benz A-Class",
+      "brand": "Mercedes-Benz",
+      "type": "used",
+      "category": "Hatchback",
+      "price": 28000,
+      "year": 2019,
+      "mileage": "45,000 miles",
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "7-speaker"
+        },
+        "external": {
+          "color": "Mountain Grey",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "188 hp",
+          "torque": "221 lb-ft",
+          "transmission": "7-speed dual-clutch",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "31 mpg"
+        },
+        "dimensions": {
+          "length": "4419 mm",
+          "width": "1796 mm",
+          "height": "1440 mm",
+          "wheelbase": "2729 mm",
+          "cargoSpace": "370 L"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "Volkswagen Golf",
+      "brand": "Volkswagen",
+      "type": "used",
+      "category": "Hatchback",
+      "price": 18000,
+      "year": 2019,
+      "mileage": "50,000 miles",
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "8-speaker"
+        },
+        "external": {
+          "color": "Tornado Red",
+          "wheelSize": "16-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": true,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "1.4L 4-cylinder Turbo",
+          "horsepower": "147 hp",
+          "torque": "184 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "32 mpg"
+        },
+        "dimensions": {
+          "length": "4284 mm",
+          "width": "1789 mm",
+          "height": "1456 mm",
+          "wheelbase": "2626 mm",
+          "cargoSpace": "380 L"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "Volkswagen Tiguan",
+      "brand": "Volkswagen",
+      "type": "used",
+      "category": "SUV",
+      "price": 22000,
+      "year": 2019,
+      "mileage": "48,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 7,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "V-Tex leatherette",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Platinum Grey",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "184 hp",
+          "torque": "221 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "25 mpg"
+        },
+        "dimensions": {
+          "length": "4509 mm",
+          "width": "1839 mm",
+          "height": "1675 mm",
+          "wheelbase": "2681 mm",
+          "cargoSpace": "1065 L"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "Volkswagen Passat",
+      "brand": "Volkswagen",
+      "type": "used",
+      "category": "Sedan",
+      "price": 19000,
+      "year": 2020,
+      "mileage": "44,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "6-inch touchscreen",
+          "upholstery": "V-Tex leatherette",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Reflex Silver",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "174 hp",
+          "torque": "206 lb-ft",
+          "transmission": "6-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "28 mpg"
+        },
+        "dimensions": {
+          "length": "4767 mm",
+          "width": "1832 mm",
+          "height": "1483 mm",
+          "wheelbase": "2791 mm",
+          "cargoSpace": "586 L"
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "Audi A3",
+      "brand": "Audi",
+      "type": "used",
+      "category": "Sedan",
+      "price": 26000,
+      "year": 2019,
+      "mileage": "42,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch MMI",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "10-speaker"
+        },
+        "external": {
+          "color": "Ibis White",
+          "wheelSize": "17-inch alloy",
+          "headlights": "Xenon",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "186 hp",
+          "torque": "221 lb-ft",
+          "transmission": "7-speed S tronic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4456 mm",
+          "width": "1796 mm",
+          "height": "1416 mm",
+          "wheelbase": "2637 mm",
+          "cargoSpace": "425 L"
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": "Audi Q3",
+      "brand": "Audi",
+      "type": "used",
+      "category": "SUV",
+      "price": 30000,
+      "year": 2020,
+      "mileage": "38,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch MMI",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "10-speaker"
+        },
+        "external": {
+          "color": "Chronos Grey",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "228 hp",
+          "torque": "258 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "25 mpg"
+        },
+        "dimensions": {
+          "length": "4484 mm",
+          "width": "1856 mm",
+          "height": "1616 mm",
+          "wheelbase": "2680 mm",
+          "cargoSpace": "530 L"
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "Audi A5 Cabriolet",
+      "brand": "Audi",
+      "type": "used",
+      "category": "Convertible",
+      "price": 42000,
+      "year": 2019,
+      "mileage": "30,000 miles",
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "8-inch MMI",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bang & Olufsen 19-speaker"
+        },
+        "external": {
+          "color": "Tango Red",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Turbo",
+          "horsepower": "248 hp",
+          "torque": "273 lb-ft",
+          "transmission": "7-speed S tronic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "27 mpg"
+        },
+        "dimensions": {
+          "length": "4633 mm",
+          "width": "1846 mm",
+          "height": "1380 mm",
+          "wheelbase": "2765 mm",
+          "cargoSpace": "320 L"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "Hyundai Santa Fe",
+      "brand": "Hyundai",
+      "type": "used",
+      "category": "SUV",
+      "price": 24000,
+      "year": 2020,
+      "mileage": "46,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Infinity 12-speaker"
+        },
+        "external": {
+          "color": "Stormy Sea",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.4L 4-cylinder",
+          "horsepower": "185 hp",
+          "torque": "178 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "25 mpg"
+        },
+        "dimensions": {
+          "length": "4770 mm",
+          "width": "1890 mm",
+          "height": "1680 mm",
+          "wheelbase": "2765 mm",
+          "cargoSpace": "547 L"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": "Hyundai Elantra",
+      "brand": "Hyundai",
+      "type": "used",
+      "category": "Sedan",
+      "price": 15000,
+      "year": 2019,
+      "mileage": "55,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Scarlet Red",
+          "wheelSize": "16-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder",
+          "horsepower": "147 hp",
+          "torque": "132 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "33 mpg"
+        },
+        "dimensions": {
+          "length": "4620 mm",
+          "width": "1800 mm",
+          "height": "1435 mm",
+          "wheelbase": "2700 mm",
+          "cargoSpace": "402 L"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "Hyundai Venue",
+      "brand": "Hyundai",
+      "type": "used",
+      "category": "SUV",
+      "price": 16500,
+      "year": 2020,
+      "mileage": "38,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Denim Blue",
+          "wheelSize": "15-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "1.6L 4-cylinder",
+          "horsepower": "121 hp",
+          "torque": "113 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "34 mpg"
+        },
+        "dimensions": {
+          "length": "4040 mm",
+          "width": "1770 mm",
+          "height": "1590 mm",
+          "wheelbase": "2520 mm",
+          "cargoSpace": "355 L"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Kia Sportage",
+      "brand": "Kia",
+      "type": "used",
+      "category": "SUV",
+      "price": 20000,
+      "year": 2019,
+      "mileage": "52,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Fabric",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Hyper Red",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.4L 4-cylinder",
+          "horsepower": "181 hp",
+          "torque": "175 lb-ft",
+          "transmission": "6-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "26 mpg"
+        },
+        "dimensions": {
+          "length": "4485 mm",
+          "width": "1855 mm",
+          "height": "1645 mm",
+          "wheelbase": "2670 mm",
+          "cargoSpace": "740 L"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": "Kia Optima",
+      "brand": "Kia",
+      "type": "used",
+      "category": "Sedan",
+      "price": 17500,
+      "year": 2019,
+      "mileage": "58,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Harman Kardon 10-speaker"
+        },
+        "external": {
+          "color": "Snow White",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "1.6L 4-cylinder Turbo",
+          "horsepower": "178 hp",
+          "torque": "195 lb-ft",
+          "transmission": "7-speed DCT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "31 mpg"
+        },
+        "dimensions": {
+          "length": "4855 mm",
+          "width": "1860 mm",
+          "height": "1465 mm",
+          "wheelbase": "2805 mm",
+          "cargoSpace": "510 L"
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": "Kia Soul",
+      "brand": "Kia",
+      "type": "used",
+      "category": "Hatchback",
+      "price": 15500,
+      "year": 2020,
+      "mileage": "42,000 miles",
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "10-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Solar Yellow",
+          "wheelSize": "16-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Hatchback"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder",
+          "horsepower": "147 hp",
+          "torque": "132 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "30 mpg"
+        },
+        "dimensions": {
+          "length": "4195 mm",
+          "width": "1800 mm",
+          "height": "1610 mm",
+          "wheelbase": "2600 mm",
+          "cargoSpace": "663 L"
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": "Chevrolet Colorado",
+      "brand": "Chevrolet",
+      "type": "used",
+      "category": "Pickup Truck",
+      "price": 28000,
+      "year": 2020,
+      "mileage": "45,000 miles",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Kinetic Blue",
+          "wheelSize": "17-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "Pickup Truck"
+        },
+        "engine": {
+          "type": "3.6L V6",
+          "horsepower": "308 hp",
+          "torque": "275 lb-ft",
+          "transmission": "8-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "20 mpg"
+        },
+        "dimensions": {
+          "length": "5412 mm",
+          "width": "1889 mm",
+          "height": "1793 mm",
+          "wheelbase": "3258 mm",
+          "cargoSpace": "Bed: 1415 L"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "Chevrolet Malibu",
+      "brand": "Chevrolet",
+      "type": "used",
+      "category": "Sedan",
+      "price": 17000,
+      "year": 2019,
+      "mileage": "55,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Pepperdust",
+          "wheelSize": "16-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "1.5L 4-cylinder Turbo",
+          "horsepower": "160 hp",
+          "torque": "184 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "32 mpg"
+        },
+        "dimensions": {
+          "length": "4933 mm",
+          "width": "1854 mm",
+          "height": "1455 mm",
+          "wheelbase": "2829 mm",
+          "cargoSpace": "447 L"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "Chevrolet Traverse",
+      "brand": "Chevrolet",
+      "type": "used",
+      "category": "SUV",
+      "price": 26000,
+      "year": 2019,
+      "mileage": "50,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 8,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Tri-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Iridescent Pearl",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "3.6L V6",
+          "horsepower": "310 hp",
+          "torque": "266 lb-ft",
+          "transmission": "9-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "21 mpg"
+        },
+        "dimensions": {
+          "length": "5189 mm",
+          "width": "1996 mm",
+          "height": "1796 mm",
+          "wheelbase": "3071 mm",
+          "cargoSpace": "651 L"
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "Nissan Maxima",
+      "brand": "Nissan",
+      "type": "used",
+      "category": "Sedan",
+      "price": 22000,
+      "year": 2020,
+      "mileage": "40,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 11-speaker"
+        },
+        "external": {
+          "color": "Carnelian Red",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "3.5L V6",
+          "horsepower": "300 hp",
+          "torque": "261 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "4900 mm",
+          "width": "1860 mm",
+          "height": "1435 mm",
+          "wheelbase": "2776 mm",
+          "cargoSpace": "405 L"
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": "Nissan Murano",
+      "brand": "Nissan",
+      "type": "used",
+      "category": "SUV",
+      "price": 24000,
+      "year": 2019,
+      "mileage": "48,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "8-inch touchscreen",
+          "upholstery": "Leather",
+          "airConditioning": "Dual-zone",
+          "soundSystem": "Bose 11-speaker"
+        },
+        "external": {
+          "color": "Brilliant Silver",
+          "wheelSize": "18-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "3.5L V6",
+          "horsepower": "260 hp",
+          "torque": "240 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "23 mpg"
+        },
+        "dimensions": {
+          "length": "4890 mm",
+          "width": "1915 mm",
+          "height": "1685 mm",
+          "wheelbase": "2825 mm",
+          "cargoSpace": "935 L"
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "Nissan Titan",
+      "brand": "Nissan",
+      "type": "used",
+      "category": "Pickup Truck",
+      "price": 32000,
+      "year": 2018,
+      "mileage": "62,000 miles",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 6,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Gun Metallic",
+          "wheelSize": "18-inch alloy",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "Pickup Truck"
+        },
+        "engine": {
+          "type": "5.6L V8",
+          "horsepower": "390 hp",
+          "torque": "394 lb-ft",
+          "transmission": "7-speed automatic",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "18 mpg"
+        },
+        "dimensions": {
+          "length": "5790 mm",
+          "width": "2010 mm",
+          "height": "1930 mm",
+          "wheelbase": "3550 mm",
+          "cargoSpace": "Bed: 1700 L"
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "Subaru Forester",
+      "brand": "Subaru",
+      "type": "used",
+      "category": "SUV",
+      "price": 21000,
+      "year": 2020,
+      "mileage": "44,000 miles",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "6-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "6-speaker"
+        },
+        "external": {
+          "color": "Jasper Green",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": true,
+          "bodyType": "SUV"
+        },
+        "engine": {
+          "type": "2.5L 4-cylinder Boxer",
+          "horsepower": "182 hp",
+          "torque": "176 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "29 mpg"
+        },
+        "dimensions": {
+          "length": "4625 mm",
+          "width": "1815 mm",
+          "height": "1730 mm",
+          "wheelbase": "2670 mm",
+          "cargoSpace": "812 L"
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "Subaru Impreza",
+      "brand": "Subaru",
+      "type": "used",
+      "category": "Sedan",
+      "price": 16500,
+      "year": 2019,
+      "mileage": "52,000 miles",
+      "image": "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80",
+        "https://images.unsplash.com/photo-1617654112368-307921291f42?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 5,
+          "infotainment": "6-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "4-speaker"
+        },
+        "external": {
+          "color": "Ice Silver",
+          "wheelSize": "16-inch steel",
+          "headlights": "Halogen",
+          "sunroof": false,
+          "bodyType": "Sedan"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Boxer",
+          "horsepower": "152 hp",
+          "torque": "145 lb-ft",
+          "transmission": "CVT",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "31 mpg"
+        },
+        "dimensions": {
+          "length": "4625 mm",
+          "width": "1775 mm",
+          "height": "1455 mm",
+          "wheelbase": "2670 mm",
+          "cargoSpace": "348 L"
+        }
+      }
+    },
+    {
+      "id": 72,
+      "name": "Subaru BRZ",
+      "brand": "Subaru",
+      "type": "used",
+      "category": "Convertible",
+      "price": 23000,
+      "year": 2020,
+      "mileage": "35,000 miles",
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80",
+        "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f4?w=800&q=80"
+      ],
+      "specs": {
+        "internal": {
+          "seats": 4,
+          "infotainment": "7-inch touchscreen",
+          "upholstery": "Cloth",
+          "airConditioning": "Single-zone",
+          "soundSystem": "8-speaker"
+        },
+        "external": {
+          "color": "WR Blue Pearl",
+          "wheelSize": "17-inch alloy",
+          "headlights": "LED",
+          "sunroof": false,
+          "bodyType": "Convertible"
+        },
+        "engine": {
+          "type": "2.0L 4-cylinder Boxer",
+          "horsepower": "205 hp",
+          "torque": "156 lb-ft",
+          "transmission": "6-speed manual",
+          "fuelType": "Gasoline",
+          "fuelEconomy": "24 mpg"
+        },
+        "dimensions": {
+          "length": "4240 mm",
+          "width": "1775 mm",
+          "height": "1320 mm",
+          "wheelbase": "2570 mm",
+          "cargoSpace": "218 L"
+        }
+      }
+    }
+  ]
+}

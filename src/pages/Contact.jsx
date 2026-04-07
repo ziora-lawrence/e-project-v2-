@@ -1,62 +1,56 @@
-// Contact.jsx - Team member profiles (6 cards) + contact info
-// NO contact form as requested — just team bios and contact details
-// Fill in the placeholder details below with your real info!
-
-// =====================================================
-// EDIT THIS ARRAY WITH YOUR REAL TEAM DETAILS
-// =====================================================
+//
 const TEAM_MEMBERS = [
   {
     id: 1,
-    name:   'Team Member 1',        // ← Change this
+    name:   'Daniel',        // ← Change this
     role:   'Project Lead',          // ← Change this
     phone:  '+000 000 0000',         // ← Change this
-    email:  'member1@carbreezy.com', // ← Change this
+    email:  'Daniel@carbreezy.com', // ← Change this
     bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
     image:  null, // ← Replace with: import img1 from '../assets/team/member1.jpg' then put img1 here
   },
   {
     id: 2,
-    name:   'Team Member 2',
+    name:   'Muhayad',
     role:   'Frontend Developer',
     phone:  '+000 000 0000',
-    email:  'member2@carbreezy.com',
+    email:  'Muhayad@carbreezy.com',
     bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
     image:  null,
   },
   {
     id: 3,
-    name:   'Team Member 3',
+    name:   'Al-ameen',
     role:   'UI/UX Designer',
     phone:  '+000 000 0000',
-    email:  'member3@carbreezy.com',
+    email:  'Al-Ameen@carbreezy.com',
     bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
     image:  null,
   },
   {
     id: 4,
-    name:   'Team Member 4',
-    role:   'Backend Developer',
+    name:   'Fredrick',
+    role:   'UI/UX Designer',
     phone:  '+000 000 0000',
-    email:  'member4@carbreezy.com',
+    email:  'Fredrick@carbreezy.com',
     bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
     image:  null,
   },
   {
     id: 5,
-    name:   'Team Member 5',
-    role:   'Data Manager',
+    name:   'Wajud',
+    role:   'Planning',
     phone:  '+000 000 0000',
-    email:  'member5@carbreezy.com',
+    email:  'Wajud@carbreezy.com',
     bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
     image:  null,
   },
   {
     id: 6,
-    name:   'Team Member 6',
-    role:   'QA & Testing',
+    name:   'Ms Ijeoma',
+    role:   'Documenting',
     phone:  '+000 000 0000',
-    email:  'member6@carbreezy.com',
+    email:  'Ijeoma@carbreezy.com',
     bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
     image:  null,
   },

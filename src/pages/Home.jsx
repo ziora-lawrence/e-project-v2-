@@ -19,7 +19,8 @@ export default function Home() {
   return (
     <div className="page-wrapper">
 
-      {/* ===== HERO SECTION ===== */}
+    
+    
       <section
         className="carbon-bg"
         style={{

@@ -55,10 +55,10 @@ export default function About() {
                 Contact Information
               </h4>
               {[
-                { icon: 'bi-envelope-fill',   label: 'Email',   value: 'info@carbreezy.com' },
-                { icon: 'bi-telephone-fill',  label: 'Phone',   value: '+1 (800) 555-CAR1' },
-                { icon: 'bi-geo-alt-fill',    label: 'Address', value: '123 AutoDrive Boulevard, Detroit, MI 48201, USA' },
-                { icon: 'bi-clock-fill',      label: 'Hours',   value: 'Mon–Sat: 9AM – 7PM EST' },
+                { icon: 'bi-envelope-fill',   label: 'Email',   value: 'Company@carbreezy.com' },
+                { icon: 'bi-telephone-fill',  label: 'Phone',   value: '07048385205' },
+                  { icon: 'bi-geo-alt-fill',    label: 'Address', value: 'West one building, Agodi, Bodija, Ibadan, Nigeria' },
+                  { icon: 'bi-clock-fill',      label: 'Hours',   value: 'Mon–Sat: 9AM – 7PM EST' },
               ].map(item => (
                 <div key={item.label} style={{ display: 'flex', gap: '1rem', marginBottom: '1.25rem', alignItems: 'flex-start' }}>
                   <div style={{

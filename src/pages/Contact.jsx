@@ -2,56 +2,56 @@
 const TEAM_MEMBERS = [
   {
     id: 1,
-    name:   'Daniel',        // ← Change this
+    name:   'Daniel Iwuji',        // ← Change this
     role:   'Project Lead',          // ← Change this
-    phone:  '+000 000 0000',         // ← Change this
+    phone:  '070 4838 5205',         // ← Change this
     email:  'Daniel@carbreezy.com', // ← Change this
-    bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
+    bio:    'I directed the entire project build the other half of the website and assisted with the figma by designing the contact us page',
     image:  null, // ← Replace with: import img1 from '../assets/team/member1.jpg' then put img1 here
   },
   {
     id: 2,
-    name:   'Muhayad',
+    name:   'Muhayad adedotun',
     role:   'Frontend Developer',
-    phone:  '+000 000 0000',
+    phone:  '0808 574 2261',
     email:  'Muhayad@carbreezy.com',
-    bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
+    bio:    'I built most of the website for the project and assited with the figma by building the about us page',
     image:  null,
   },
   {
     id: 3,
-    name:   'Al-ameen',
+    name:   'Al-ameen Tijani',
     role:   'UI/UX Designer',
-    phone:  '+000 000 0000',
+    phone:  '0903 544 9434',
     email:  'Al-Ameen@carbreezy.com',
-    bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
+    bio:    'I built the Home page, brands page and active brands page for the figma',
     image:  null,
   },
   {
     id: 4,
-    name:   'Fredrick',
+    name:   'Fredrick Ugwu',
     role:   'UI/UX Designer',
-    phone:  '+000 000 0000',
+    phone:  '0916 953 1738',
     email:  'Fredrick@carbreezy.com',
-    bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
+    bio:    'I build new cars, used cars, and gallery figma for the project',
     image:  null,
   },
   {
     id: 5,
-    name:   'Wajud',
-    role:   'Planning',
-    phone:  '+000 000 0000',
+    name:   'Wajud abideen',
+    role:   'Documenting',
+    phone:  '0704 947 0792',
     email:  'Wajud@carbreezy.com',
-    bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
+    bio:    'I helped in designing the flowchard and the Dataflow diagram for project',
     image:  null,
   },
   {
     id: 6,
     name:   'Ms Ijeoma',
     role:   'Documenting',
-    phone:  '+000 000 0000',
+    phone:  '0803 056 4388',
     email:  'Ijeoma@carbreezy.com',
-    bio:    'Add your bio here. Tell us about your role in the CarBreezy project and what you contributed.',
+    bio:    'I worked on the documentation for the project',
     image:  null,
   },
 ]

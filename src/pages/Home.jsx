@@ -1,5 +1,5 @@
 // Home.jsx - Landing page with hero, featured cars, and brand previews
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import carsData from '../data/cars.json'
 import CarCard from '../components/CarCard'
@@ -10,11 +10,23 @@ const BRANDS = ['Toyota','Honda','Ford','BMW','Mercedes-Benz','Volkswagen','Audi
 
 export default function Home() {
   const [selectedCar, setSelectedCar] = useState(null)
+  const [slideIndex, setSlideIndex] = useState(0)
   const navigate = useNavigate()
 
   const allCars = carsData.cars || carsData
   const newCars  = allCars.filter(c => c.type === 'new').slice(0, 6)
   const usedCars = allCars.filter(c => c.type === 'used').slice(0, 6)
+
+  // Pick 6 varied cars from the JSON to use as hero background slides
+  const heroSlides = [0, 9, 12, 19, 28, 34].map(i => allCars[i]).filter(Boolean)
+
+  // Auto-advance carousel every 4 seconds
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setSlideIndex(prev => (prev + 1) % heroSlides.length)
+    }, 4000)
+    return () => clearInterval(timer)
+  }, [heroSlides.length])
 
   return (
     <div className="page-wrapper">
@@ -22,7 +34,6 @@ export default function Home() {
     
     
       <section
-        className="carbon-bg"
         style={{
           minHeight: '92vh',
           display: 'flex',
@@ -32,10 +43,48 @@ export default function Home() {
           borderBottom: '1px solid #222',
         }}
       >
-        {/* Red accent line on left */}
-        <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: '4px', background: '#CC0000' }} />
+        {/* Carousel background images */}
+        {heroSlides.map((car, i) => (
+          <div
+            key={car.id}
+            style={{
+              position: 'absolute',
+              inset: 0,
+              backgroundImage: `url(${car.image})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              opacity: i === slideIndex ? 1 : 0,
+              transition: 'opacity 1s ease-in-out',
+              zIndex: 0,
+            }}
+          />
+        ))}
 
-        <div className="container text-center py-5 fade-in">
+        {/* Dark overlay so text stays readable */}
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.72)', zIndex: 1 }} />
+
+        {/* Red accent line on left */}
+        <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: '4px', background: '#CC0000', zIndex: 2 }} />
+
+        {/* Slide dots */}
+        <div style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '8px', zIndex: 2 }}>
+          {heroSlides.map((_, i) => (
+            <div
+              key={i}
+              onClick={() => setSlideIndex(i)}
+              style={{
+                width: i === slideIndex ? '24px' : '8px',
+                height: '8px',
+                borderRadius: '4px',
+                background: i === slideIndex ? '#CC0000' : '#555',
+                cursor: 'pointer',
+                transition: 'all 0.3s ease',
+              }}
+            />
+          ))}
+        </div>
+
+        <div className="container text-center py-5 fade-in" style={{ position: 'relative', zIndex: 2 }}>
           <span
             style={{
               background: 'rgba(204,0,0,0.15)',

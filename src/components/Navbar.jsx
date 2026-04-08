@@ -1,9 +1,9 @@
-// Navbar.jsx - Top navigation bar with logo, visitor counter, and nav links
+// Navbar contains links to other pages in the site, the logo and a visitor counter
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import logo from '../assets/logo.png'
 
-// Nav links config - easy to add/remove links here
+// Nav links 
 const NAV_LINKS = [
   { path: '/',       label: 'Home' },
   { path: '/new',    label: 'New Cars' },
@@ -50,7 +50,7 @@ export default function Navbar() {
           <img src={logo} alt="CarBreezy Logo" height="50" />
         </Link>
 
-        {/* Visitor counter badge - visible on all screen sizes */}
+        {/* Visitor counter badge visible on all screen sizes */}
         <span
           className="badge ms-2 d-none d-md-inline"
           style={{ background: '#CC0000', fontSize: '0.75rem', padding: '6px 10px' }}

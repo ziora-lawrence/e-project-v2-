@@ -1,4 +1,4 @@
-// Footer.jsx - Site-wide footer with links, categories, and contact info
+// This is the footer it contains meta data, About Car Breezy, quick links as well as the different brands
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container">
         <div className="row g-4">
 
-          {/* Column 1: About */}
+          {/* About CarBreezy */}
           <div className="col-12 col-md-6 col-lg-3">
             <h5 style={{ color: '#CC0000', fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '1.2rem', marginBottom: '1rem' }}>
               About CarBreezy
@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Column 2: Quick Links */}
+          {/* these are the Quick Links */}
           <div className="col-12 col-md-6 col-lg-3">
             <h5 style={{ color: '#CC0000', fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '1.2rem', marginBottom: '1rem' }}>
               Quick Links
@@ -55,7 +55,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Car Categories */}
+          {/*Car Categories */}
           <div className="col-12 col-md-6 col-lg-3">
             <h5 style={{ color: '#CC0000', fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '1.2rem', marginBottom: '1rem' }}>
               Car Categories
@@ -77,7 +77,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Contact */}
+          {/* Contact Us IG */}
           <div className="col-12 col-md-6 col-lg-3">
             <h5 style={{ color: '#CC0000', fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, fontSize: '1.2rem', marginBottom: '1rem' }}>
               Contact Us
@@ -85,15 +85,15 @@ export default function Footer() {
             <ul style={{ listStyle: 'none', padding: 0, color: '#aaa', fontSize: '0.9rem' }}>
               <li className="mb-2">
                 <i className="bi bi-geo-alt me-2" style={{ color: '#CC0000' }}></i>
-                123 AutoDrive Blvd, Detroit, MI
+                West one building, Agodi, Bodija, Ibadan, Nigeria
               </li>
               <li className="mb-2">
                 <i className="bi bi-telephone me-2" style={{ color: '#CC0000' }}></i>
-                +1 (800) 555-CAR1
+                +234 803 456 7890
               </li>
               <li className="mb-2">
                 <i className="bi bi-envelope me-2" style={{ color: '#CC0000' }}></i>
-                info@carbreezy.com
+                company@carbreezy.com
               </li>
               <li className="mb-2">
                 <i className="bi bi-clock me-2" style={{ color: '#CC0000' }}></i>
@@ -104,7 +104,7 @@ export default function Footer() {
 
         </div>
 
-        {/* Bottom copyright bar */}
+        {/* OUR copyright bar with love from us */}
         <div
           className="mt-4 pt-3"
           style={{ borderTop: '1px solid #333', textAlign: 'center', color: '#555', fontSize: '0.85rem' }}

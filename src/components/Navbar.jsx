@@ -1,4 +1,4 @@
-// Navbar contains links to other pages in the site, the logo and a visitor counter
+// This navbar contains links to other pages in the site, the logo and a visitor counter
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import logo from '../assets/logo.png'
@@ -20,7 +20,7 @@ export default function Navbar() {
   const [visitors, setVisitors] = useState(0)
   const [scrolled, setScrolled] = useState(false)
 
-  // Increment and persist visitor count using localStorage
+  // visitor count increment
   useEffect(() => {
     const stored = localStorage.getItem('cb_visitors')
     const count = stored ? parseInt(stored) + 1 : 1
@@ -28,7 +28,7 @@ export default function Navbar() {
     setVisitors(count)
   }, [])
 
-  // Add shadow when scrolled
+  // when scrolling down a shadow is added
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10)
     window.addEventListener('scroll', handleScroll)
@@ -42,15 +42,18 @@ export default function Navbar() {
         borderBottom: '1px solid #333',
         boxShadow: scrolled ? '0 2px 20px rgba(204,0,0,0.15)' : 'none',
         transition: 'box-shadow 0.3s ease',
+        height: '70px',
+        display: 'flex',
+        alignItems: 'center',
       }}
     >
       <div className="container-fluid px-4">
         {/* Logo */}
         <Link className="navbar-brand" to="/">
-          <img src={logo} alt="CarBreezy Logo" height="50" />
+          <img src={logo} alt="CarBreezy Logo" height="110" width="110" />
         </Link>
 
-        {/* Visitor counter badge visible on all screen sizes */}
+        {/* now its visible on all pages */}
         <span
           className="badge ms-2 d-none d-md-inline"
           style={{ background: '#CC0000', fontSize: '0.75rem', padding: '6px 10px' }}
@@ -59,7 +62,7 @@ export default function Navbar() {
           Visitors: {visitors.toLocaleString()}
         </span>
 
-        {/* Mobile hamburger button */}
+        {/* The Mobile hamburger button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -100,7 +103,7 @@ export default function Navbar() {
             })}
           </ul>
 
-          {/* Visitor counter in mobile menu */}
+          {/* The mobile view visitor counter */}
           <span
             className="badge d-md-none mt-2 mb-1"
             style={{ background: '#CC0000', fontSize: '0.75rem', padding: '6px 10px' }}

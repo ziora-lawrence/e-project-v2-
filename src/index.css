@@ -147,6 +147,6 @@ html {
 
 /* Page wrapper - leaves room for navbar and ticker */
 .page-wrapper {
-  min-height: calc(100vh - 76px - 40px);
+  min-height: calc(100vh - 70px - 40px);
   padding-top: 76px;
 }

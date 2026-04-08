@@ -2,12 +2,12 @@
 const TEAM_MEMBERS = [
   {
     id: 1,
-    name:   'Daniel Iwuji',        // ← Change this
-    role:   'Project Lead',          // ← Change this
-    phone:  '070 4838 5205',         // ← Change this
-    email:  'Daniel@carbreezy.com', // ← Change this
+    name:   'Daniel Iwuji',      
+    role:   'Project Lead',        
+    phone:  '070 4838 5205',        
+    email:  'Daniel@carbreezy.com', 
     bio:    'I directed the entire project build the other half of the website and assisted with the figma by designing the contact us page',
-    image:  null, // ← Replace with: import img1 from '../assets/team/member1.jpg' then put img1 here
+    image:  null, // honestly i dont think we need images dont wanna show my face 
   },
   {
     id: 2,
@@ -56,7 +56,7 @@ const TEAM_MEMBERS = [
   },
 ]
 
-// Generates initials from a name e.g. "Daniel Iwuji" → "DI"
+// guy this is for the initials
 function getInitials(name) {
   return name
     .split(' ')
@@ -66,7 +66,7 @@ function getInitials(name) {
     .slice(0, 2)
 }
 
-// Avatar colors cycling through team
+// will cycle through
 const AVATAR_COLORS = ['#CC0000','#006699','#009944','#8800cc','#cc6600','#009988']
 
 export default function Contact() {
@@ -74,7 +74,6 @@ export default function Contact() {
     <div className="page-wrapper" style={{ background: '#0d0d0d', minHeight: '100vh' }}>
       <div className="container py-5">
 
-        {/* Page header */}
         <div className="mb-5 fade-in text-center">
           <h2 className="section-title">Meet the <span>Team</span></h2>
           <div className="section-divider mx-auto"></div>
@@ -83,7 +82,7 @@ export default function Contact() {
           </p>
         </div>
 
-        {/* ===== 6 TEAM MEMBER CARDS ===== */}
+        {/* Team member cards */}
         <div className="row g-4 mb-5">
           {TEAM_MEMBERS.map((member, i) => (
             <div key={member.id} className="col-12 col-sm-6 col-lg-4">
@@ -133,7 +132,6 @@ export default function Contact() {
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />
                   ) : (
-                    // Shows initials if no photo yet
                     <span
                       style={{
                         color: AVATAR_COLORS[i % AVATAR_COLORS.length],
@@ -211,7 +209,7 @@ export default function Contact() {
           ))}
         </div>
 
-        {/* General contact info section */}
+        {/* The General contact info section */}
         <div
           style={{
             background: '#141414',
@@ -226,9 +224,9 @@ export default function Contact() {
           </h4>
           <div className="row g-3">
             {[
-              { icon: 'bi-envelope-fill',  label: 'Email',   value: 'info@carbreezy.com' },
-              { icon: 'bi-telephone-fill', label: 'Phone',   value: '+1 (800) 555-CAR1' },
-              { icon: 'bi-geo-alt-fill',   label: 'Address', value: '123 AutoDrive Boulevard, Detroit, MI 48201, USA' },
+              { icon: 'bi-envelope-fill',  label: 'Email',   value: 'company@carbreezy.com' },
+              { icon: 'bi-telephone-fill', label: 'Phone',   value: '07048385205' },
+              { icon: 'bi-geo-alt-fill',   label: 'Address', value: 'West one building, Agodi, Bodija, Ibadan, Nigeria' },
               { icon: 'bi-clock-fill',     label: 'Hours',   value: 'Monday – Saturday: 9AM – 7PM EST' },
             ].map(item => (
               <div key={item.label} className="col-12 col-md-6">

@@ -1,5 +1,4 @@
-// Gallery.jsx - Grid of all car images with a fullscreen lightbox
-// Lightbox built with React state only - no external libraries needed
+// Gallery.jsx contains grid of all car images with a fullscreen lightbox
 import { useState } from 'react'
 import carsData from '../data/cars.json'
 
@@ -8,7 +7,7 @@ export default function Gallery() {
 
   const allCars = carsData.cars || carsData
 
-  // Collect all images: first image from each car for the grid
+  // this takes only the first image from the car object and formats it for the gallery
   const galleryImages = allCars.map(car => ({
     src:   car.image,
     alt:   car.name,
@@ -44,7 +43,6 @@ export default function Gallery() {
           <p style={{ color: '#aaa' }}>Click any image to view it fullscreen</p>
         </div>
 
-        {/* Masonry-style CSS columns grid */}
         <div
           style={{
             columns: '4 200px',
@@ -104,7 +102,7 @@ export default function Gallery() {
         </div>
       </div>
 
-      {/* ===== LIGHTBOX ===== */}
+      {/* Lightbox */}
       {lightboxIndex !== null && (
         <div
           onClick={() => setLightboxIndex(null)}
@@ -136,7 +134,7 @@ export default function Gallery() {
             {lightboxIndex + 1} / {totalImages}
           </p>
 
-          {/* Main image - stop click from closing */}
+          {/* Main image stop click from closing */}
           <div
             onClick={e => e.stopPropagation()}
             style={{ position: 'relative', maxWidth: '90vw', maxHeight: '80vh' }}
@@ -164,7 +162,7 @@ export default function Gallery() {
             </p>
           </div>
 
-          {/* Left / Right arrows - stop click from closing lightbox */}
+          {/* Left / Right arrows stop click from closing lightbox */}
           <button
             onClick={e => { e.stopPropagation(); goPrev() }}
             style={{

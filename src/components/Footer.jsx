@@ -7,7 +7,7 @@ export default function Footer() {
       style={{
         background: '#0d0d0d',
         borderTop: '1px solid #333',
-        paddingBottom: '40px', // space for ticker
+        paddingBottom: '40px', // space for ticker bro
       }}
       className="pt-5"
     >

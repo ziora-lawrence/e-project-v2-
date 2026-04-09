@@ -1,4 +1,4 @@
-// About.jsx - Company info and contact details
+// About.jsx contains company info and contact details
 export default function About() {
   return (
     <div className="page-wrapper" style={{ background: '#0d0d0d', minHeight: '100vh' }}>
@@ -10,7 +10,7 @@ export default function About() {
         </div>
 
         <div className="row g-5">
-          {/* Left: Company story */}
+          {/* Company story */}
           <div className="col-12 col-lg-7">
             <div style={{ background: '#141414', border: '1px solid #2a2a2a', borderRadius: '10px', padding: '2rem' }}>
               <h4 style={{ color: '#CC0000', fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, marginBottom: '1rem' }}>
@@ -48,7 +48,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Right: Contact info */}
+          {/* Contact info */}
           <div className="col-12 col-lg-5">
             <div style={{ background: '#141414', border: '1px solid #2a2a2a', borderLeft: '3px solid #CC0000', borderRadius: '10px', padding: '2rem' }}>
               <h4 style={{ color: '#CC0000', fontFamily: 'Rajdhani, sans-serif', fontWeight: 700, marginBottom: '1.5rem' }}>

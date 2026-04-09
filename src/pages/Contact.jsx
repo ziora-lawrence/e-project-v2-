@@ -1,4 +1,4 @@
-//
+// contact us contains team member bios and general contact info
 const TEAM_MEMBERS = [
   {
     id: 1,

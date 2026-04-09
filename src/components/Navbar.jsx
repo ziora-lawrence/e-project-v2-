@@ -11,8 +11,8 @@ const NAV_LINKS = [
   { path: '/brands', label: 'Brands' },
   { path: '/offers', label: 'Offers' },
   { path: '/gallery',label: 'Gallery' },
-  { path: '/about',  label: 'About' },
-  { path: '/contact',label: 'Contact' },
+  { path: '/about',  label: 'About Us' },
+  { path: '/contact',label: 'Contact Us' },
 ]
 
 export default function Navbar() {

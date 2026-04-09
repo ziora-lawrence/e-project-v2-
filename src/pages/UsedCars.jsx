@@ -1,4 +1,3 @@
-// UsedCars.jsx - Same layout as NewCars but filters used cars and shows mileage
 import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import carsData from '../data/cars.json'

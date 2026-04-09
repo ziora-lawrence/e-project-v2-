@@ -1,4 +1,4 @@
-// Home.jsx - Landing page with hero, featured cars, and brand previews
+// Home.jsx, Landing page with hero, featured cars, and brand previews
 import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import carsData from '../data/cars.json'
@@ -17,10 +17,9 @@ export default function Home() {
   const newCars  = allCars.filter(c => c.type === 'new').slice(0, 6)
   const usedCars = allCars.filter(c => c.type === 'used').slice(0, 6)
 
-  // Pick 6 varied cars from the JSON to use as hero background slides
   const heroSlides = [0, 9, 12, 19, 28, 34].map(i => allCars[i]).filter(Boolean)
 
-  // Auto-advance carousel every 4 seconds
+  // corrosel, it changes every 4 seconds 
   useEffect(() => {
     const timer = setInterval(() => {
       setSlideIndex(prev => (prev + 1) % heroSlides.length)
@@ -60,13 +59,10 @@ export default function Home() {
           />
         ))}
 
-        {/* Dark overlay so text stays readable */}
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.72)', zIndex: 1 }} />
 
-        {/* Red accent line on left */}
         <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: '4px', background: '#CC0000', zIndex: 2 }} />
 
-        {/* Slide dots */}
         <div style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '8px', zIndex: 2 }}>
           {heroSlides.map((_, i) => (
             <div
@@ -150,7 +146,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== FEATURED NEW CARS ===== */}
+      {/* Featured new cars */}
       <section style={{ padding: '5rem 0', background: '#0d0d0d' }}>
         <div className="container">
           <div className="mb-4">
@@ -172,7 +168,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== FEATURED USED CARS ===== */}
+      {/*Featured used cars */}
       <section style={{ padding: '5rem 0', background: '#111' }}>
         <div className="container">
           <div className="mb-4">
@@ -194,7 +190,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== BRANDS SECTION ===== */}
+      {/* Brands section */}
       <section style={{ padding: '5rem 0', background: '#0d0d0d' }}>
         <div className="container">
           <div className="mb-4">

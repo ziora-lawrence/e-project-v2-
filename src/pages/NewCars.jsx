@@ -1,4 +1,4 @@
-// NewCars.jsx - Shows all new cars with category and brand filters
+// NewCars.jsx this shows all new cars with category and brand filters
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import carsData from '../data/cars.json'
@@ -95,7 +95,7 @@ export default function NewCars() {
             </select>
           </div>
 
-          {/* Result count */}
+          {/* Result counter */}
           <div style={{ marginLeft: 'auto' }}>
             <span style={{ color: '#aaa', fontSize: '0.85rem' }}>
               Showing <strong style={{ color: '#CC0000' }}>{filtered.length}</strong> cars

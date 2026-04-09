@@ -1,5 +1,5 @@
-// CarModal.jsx - Popup modal showing full car details with 4 spec tabs
-// Opens ONLY when "View Details" is clicked on a CarCard
+// so like the Modal functionality
+// Opens ONLY when View Details is clicked on a CarCard
 import { useState, useEffect } from 'react'
 
 export default function CarModal({ car, onClose }) {
@@ -28,7 +28,7 @@ export default function CarModal({ car, onClose }) {
     dimensions: 'Dimensions',
   }
 
-  // Renders a simple key-value table from a spec object
+  //SO Render a simple key value table from a spec object
   const renderSpecTable = (specObj) => (
     <table style={{ width: '100%', borderCollapse: 'collapse' }}>
       <tbody>
@@ -48,7 +48,7 @@ export default function CarModal({ car, onClose }) {
   )
 
   return (
-    // Dark overlay - clicking it closes the modal
+    // Dark overla
     <div
       onClick={onClose}
       style={{
@@ -61,7 +61,7 @@ export default function CarModal({ car, onClose }) {
         padding: '1rem',
       }}
     >
-      {/* Modal box - stop click from closing when clicking inside */}
+      {/* Modal box to stop....*/}
       <div
         onClick={e => e.stopPropagation()}
         style={{
@@ -97,7 +97,7 @@ export default function CarModal({ car, onClose }) {
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             onError={e => { e.target.src = '' }}
           />
-          {/* Image nav arrows - only for navigation, NOT opening another modal */}
+          {/* the image arrows but only for navigation though*/}
           {car.images && car.images.length > 1 && (
             <>
               <button

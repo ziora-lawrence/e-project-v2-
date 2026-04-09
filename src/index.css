@@ -1,6 +1,6 @@
-/* ===== GLOBAL CSS - CarBreezy ===== */
 
-/* CSS Variables for consistent color scheme */
+
+
 :root {
   --bg-primary: #0a0a0a;
   --bg-secondary: #1a1a1a;
@@ -14,7 +14,6 @@
   --font-body: 'Inter', sans-serif;
 }
 
-/* Base styles */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ body {
   color: var(--text-primary);
   font-family: var(--font-body);
   overflow-x: hidden;
-  /* Space for fixed ticker at bottom */
   padding-bottom: 40px;
 }
 
@@ -34,12 +32,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
 
-/* Smooth scrolling */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -145,7 +143,7 @@ html {
   color: #fff;
 }
 
-/* Page wrapper - leaves room for navbar and ticker */
+/* Page wrapper */
 .page-wrapper {
   min-height: calc(100vh - 70px - 40px);
   padding-top: 76px;

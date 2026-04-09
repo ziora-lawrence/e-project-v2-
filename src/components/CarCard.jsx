@@ -1,5 +1,5 @@
-// CarCard.jsx - Displays a single car in a grid. 
-// Click "View Details" to open the modal — NOT the image itself (good UX!)
+// CarCard.jsx this displays a single car in a grid. 
+// you have to click viiew derails to open the modal nOT the image itself
 import carPlaceholder from '../assets/car-placeholder.svg'
 
 export default function CarCard({ car, onViewDetails }) {
@@ -35,7 +35,7 @@ export default function CarCard({ car, onViewDetails }) {
         e.currentTarget.style.boxShadow = 'none'
       }}
     >
-      {/* Car image - NOT clickable to open modal, just decorative */}
+      {/* Car image not clickable to open modal, just decorative */}
       <div style={{ position: 'relative', height: '200px', overflow: 'hidden', background: '#1a1a1a' }}>
         <img
           src={car.image}
@@ -119,7 +119,7 @@ export default function CarCard({ car, onViewDetails }) {
           ${car.price.toLocaleString()}
         </p>
 
-        {/* View Details button - THIS is what opens the modal */}
+        {/* View Details button this is what opens the modal */}
         <button
           onClick={() => onViewDetails(car)}
           className="btn-carbreezy w-100"
@@ -141,6 +141,7 @@ export default function CarCard({ car, onViewDetails }) {
           <i className="bi bi-eye me-2"></i>
           View Details
         </button>
+        {/* add comments for everything guy */}
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-// Offers.jsx - Reads offers.xml using DOMParser (no external library needed)
+// Offers.jsx this reads offers.xml 
 import { useState, useEffect } from 'react'
 
 export default function Offers() {

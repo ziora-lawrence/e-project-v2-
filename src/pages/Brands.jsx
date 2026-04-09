@@ -1,4 +1,4 @@
-// Brands.jsx - Shows all brands as cards and filters cars by brand
+// Brands.jsx shows all brands as cards and filters cars by brand
 import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import carsData from '../data/cars.json'
@@ -9,7 +9,7 @@ const BRANDS = ['Toyota','Honda','Ford','BMW','Mercedes-Benz','Volkswagen','Audi
 
 export default function Brands() {
   const [searchParams] = useSearchParams()
-  // Pre-select brand if navigated from Home page with ?brand=Toyota etc
+  // Pre select brand if navigated from Home page cool stuff ngl 
   const [activeBrand, setActiveBrand] = useState(searchParams.get('brand') || null)
   const [selectedCar, setSelectedCar] = useState(null)
 

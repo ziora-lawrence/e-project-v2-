@@ -1,17 +1,17 @@
-// Ticker.jsx - Fixed bottom bar showing live date, time, and user location
+//The ticker at the bottom
 import { useState, useEffect } from 'react'
 
 export default function Ticker() {
   const [time, setTime] = useState(new Date())
   const [location, setLocation] = useState('Detecting location...')
 
-  // Update clock every second
+  // This updates the clock every second
   useEffect(() => {
     const interval = setInterval(() => setTime(new Date()), 1000)
     return () => clearInterval(interval)
   }, [])
 
-  // Get user's city via HTML5 Geolocation API
+  // Get user's city 
   useEffect(() => {
     if (!navigator.geolocation) {
       setLocation('Location unavailable')
@@ -40,8 +40,7 @@ export default function Ticker() {
       () => setLocation('Location unavailable')
     )
   }, [])
-
-  // Format date like: Sunday, April 05, 2026
+// Format date 
   const dateStr = time.toLocaleDateString('en-US', {
     weekday: 'long',
     year: 'numeric',
@@ -49,7 +48,7 @@ export default function Ticker() {
     day: '2-digit',
   })
 
-  // Format time like: 03:45:22 PM
+  // Format time
   const timeStr = time.toLocaleTimeString('en-US', {
     hour: '2-digit',
     minute: '2-digit',
@@ -85,7 +84,6 @@ export default function Ticker() {
           letterSpacing: '0.3px',
         }}
       >
-        {/* Repeat text so there's no gap when it loops */}
         {tickerText}{tickerText}{tickerText}
       </div>
     </div>
